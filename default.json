@@ -1,0 +1,8 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^boto"],
+      "extends": ["schedule:monthly"]
+    }
+  ]
+}
