@@ -3,6 +3,7 @@
   "packageRules": [
     {
       "matchPackagePatterns": ["^boto"],
+      "groupName": "boto",
       "extends": ["schedule:monthly"]
     }
   ]
