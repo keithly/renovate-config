@@ -6,5 +6,8 @@
       "groupName": "boto",
       "extends": ["schedule:monthly"]
     }
-  ]
+  ],
+  "pip_requirements": {
+    "fileMatch": ["^requirements"]
+  }
 }
