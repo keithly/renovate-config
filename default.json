@@ -2,7 +2,7 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePatterns": ["^boto"],
+      "matchPackagePatterns": ["boto"],
       "groupName": "boto",
       "extends": ["schedule:monthly"]
     }
