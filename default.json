@@ -2,11 +2,23 @@
   "extends": ["config:base"],
   "packageRules": [
     {
+      "platformCommit": true
+    },
+    {
       "matchPackagePatterns": ["boto"],
       "groupName": "boto",
-      "extends": ["schedule:monthly"]
+      "extends": ["schedule:monthly"],
+      "automerge": true,
+      "automergeType": "pr",
+      "platformAutomerge": true
     }
   ],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "automerge": true,
+    "automergeType": "pr",
+    "platformAutomerge": true
+  },
   "pip_requirements": {
     "fileMatch": ["^requirements"]
   }
