@@ -7,18 +7,9 @@
     {
       "matchPackagePatterns": ["boto"],
       "groupName": "boto",
-      "extends": ["schedule:monthly"],
-      "automerge": true,
-      "automergeType": "pr",
-      "platformAutomerge": true
+      "extends": ["schedule:monthly"]
     }
   ],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "automerge": true,
-    "automergeType": "pr",
-    "platformAutomerge": true
-  },
   "pip_requirements": {
     "fileMatch": ["^requirements"]
   }
