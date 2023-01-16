@@ -2,9 +2,6 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "platformCommit": true
-    },
-    {
       "matchPackagePatterns": ["boto"],
       "groupName": "boto",
       "extends": ["schedule:monthly"]
